@@ -12,7 +12,7 @@ public class ClientGeneric {
 
         FriendGeneric.something("Apoorv");
         FriendGeneric.somethingElse("Ramesh", 10);
-        FriendGeneric.somethinfElseElse(100, 100);
+        FriendGeneric.somethingElseElse(100, 100);
 
         String s = FriendGeneric.somethingWithReturn("Rahul");
         System.out.println(s);

@@ -22,7 +22,7 @@ public class FriendGeneric<T, U> {
     }
 
     //Same method can be written as
-    public static <E> void somethinfElseElse(E e1, E e2){
+    public static <E> void somethingElseElse(E e1, E e2){
         System.out.println("e1 = "+e1 + " e2 = "+e2);
     }
 
