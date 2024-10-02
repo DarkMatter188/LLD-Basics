@@ -1,10 +1,10 @@
 package com.example.streamandlambdas;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
+import java.util.function.BinaryOperator;
+import java.util.function.IntFunction;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class Streams {
@@ -77,6 +77,18 @@ public class Streams {
 
 
         System.out.println(flattenedList);
+
+
+//        List<String> fruits = Arrays.asList("apple", "banana", "orange", "grape", "kiwi");
+//
+//        // What does the following code snippet do?
+//        Map<Integer, List<String>> groupedByLength = fruits.stream()
+//                .collect(Collectors.groupingBy(String::length));
+//
+//        System.out.println(groupedByLength);
+
+
+
 
     }
 }

@@ -1,10 +1,7 @@
 package com.example.mergesort;
 
 import java.util.List;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
+import java.util.concurrent.*;
 
 public class Client {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
@@ -21,5 +18,7 @@ public class Client {
         List<Integer> sortedList = sortedListFuture.get();
 
         System.out.println(sortedList);
+        String s = "vv";
+        s.compareToIgnoreCase("v");
     }
 }
