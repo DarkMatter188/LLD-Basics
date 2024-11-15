@@ -22,7 +22,6 @@ public class Client {
                 System.out.println("DEBUG");
             }
 
-
             NumberPrinter numberPrinter = new NumberPrinter(i);
             executorService.execute(numberPrinter);
         }

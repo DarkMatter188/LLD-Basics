@@ -1,8 +1,6 @@
 package com.example.streamandlambdas;
 
 import java.util.*;
-import java.util.function.BinaryOperator;
-import java.util.function.IntFunction;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -48,6 +46,7 @@ public class Streams {
                             System.out.println("Mapping: "+x);
                             return x*x;
                         })
+
 //                        .sorted()
                         .findFirst();
 
