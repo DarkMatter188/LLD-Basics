@@ -124,7 +124,7 @@ public class Game {
     private boolean checkWinner(Board board, Move move){
         //Check all gameWinningStrategy
         for(GameWinningStrategy winningStrategy : winningStrategies){
-            if(winningStrategy.checkWinner(board, move)){
+            if(winningStrategy.checkWinner(board, move)) {
                 return true;
             }
         }
